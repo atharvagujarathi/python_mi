@@ -20,3 +20,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# multitasking
+# - process based multitasking
+# - thread based multitasking
+
+# - process based multitasking = 
+
+
+
+#                   multitasking
+# process based multitasking               
+# thread based multitasking
+# 
