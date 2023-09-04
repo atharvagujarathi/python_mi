@@ -10,7 +10,16 @@ def main():
 
     print("The user list is: ", arr)
 
-    # for i in range(2, arr)
+    print(sum(arr))
+
+    if numbers <= 1 and numbers % 2 == 0 and numbers % 3 == 0:
+        return False
+    
+    if numbers <= 3:
+        print(sum(arr))
+    
+
+
 
 
 if __name__ == "__main__":
