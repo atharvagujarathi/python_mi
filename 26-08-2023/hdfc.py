@@ -37,6 +37,8 @@ class HDFC:
 
 
 def main():
+    value1 = float(input("Enter the First Value: "))
+    value2 = float(input("Enter the Second Value: "))
     print("ROI of HDFC bank is : ", HDFC.ROI)
 
     HDFC.DisplayBankInfo()
@@ -44,10 +46,10 @@ def main():
     HDFC.DisplayKYCInfo()
 
     print("Createing new account ...")
-    Amit = HDFC("Amit", 5000)   # __init__(100,"Amit",5000)
+    Amit = HDFC(value1, value2)   # __init__(100,"Amit",5000)
 
     print("Createing new account ...")
-    Sagar = HDFC("Sagar", 3000)   # __init__(200,"Sagar",3000)
+    Sagar = HDFC(value1, value2)   # __init__(200,"Sagar",3000)
 
     print("Performing operations on Amit's Account")
     Amit.Deposit(2000)
