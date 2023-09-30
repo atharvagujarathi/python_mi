@@ -1,7 +1,9 @@
 import threading
+import os
 
 
 def even_numbers():
+    print("Function 1: ", os.getpid(), "Thread ID is: ", threading.get_ident())
     even = []
     count = 0
     num = 2  # because even numbers are starting from 2
@@ -15,6 +17,7 @@ def even_numbers():
 
 
 def odd_numbers():
+    print("Function 2: ", os.getpid(), "Thread ID is: ", threading.get_ident())
     odd = []
     count = 1
 
@@ -28,9 +31,8 @@ def odd_numbers():
 def main():
     print("This is the multithreading program")
 
-    no = 5
-    en = threading.Thread(target=even_numbers, args=(no,))
-    on = threading.Thread(target=odd_numbers, args=(no,))
+    en = threading.Thread(target=even_numbers)
+    on = threading.Thread(target=odd_numbers)
 
     en.start()
     on.start()
