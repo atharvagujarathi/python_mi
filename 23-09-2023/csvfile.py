@@ -1,6 +1,6 @@
 import csv
 
-file_path = "example.csv"
+file_path = "C:/Users/athar/oneDrive/Desktop/Python Machine Learning/23-09-2023/example1.csv"
 
 data = [
     {"ID": "atharvagujarathi92@gmail.com"},

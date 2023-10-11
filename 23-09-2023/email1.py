@@ -1,5 +1,5 @@
 import smtplib
-from email.mime.text import MIMEText
+from email.mime.text import MIMEText # Multipurpose Internet mail extensions
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from apscheduler.schedulers.blocking import BlockingScheduler
