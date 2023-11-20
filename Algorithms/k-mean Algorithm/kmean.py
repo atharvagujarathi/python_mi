@@ -74,7 +74,7 @@ def MarvellousKMean():
 
     #plot the data and the centers generated as random
     plt.scatter(data[:, 0], data[:, 1], c='r', s=7)
-    plt.scatter(centers[:, 0], centers[:, 1], marker='*', c='g', s=150)
+    plt.scatter(centers[:, 0], centers[:, 1], marker='^', c='g', s=150)
     plt.title("Input database with random centroid *")
     plt.show()
     print("_____________________________")
