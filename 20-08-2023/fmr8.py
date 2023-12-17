@@ -19,7 +19,7 @@ def Summation(a, b):
 # Elements :List of data.
 
 def filterx(task, elements):
-
+    pass
 
 def main():
     data = []

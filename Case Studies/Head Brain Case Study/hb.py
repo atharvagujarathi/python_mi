@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 def HeadBrainPredictor():
 
     # Load the Data:
-    data = pd.read_csv(r"C:\Users\atharva.gujarathi\OneDrive - Reliance Corporate IT Park Limited\Desktop\python_mi\Case Studies\Head Brain Case Study\MarvellousHeadBrain (1).csv")
+    csv_url = "https://drive.google.com/file/d/1X4w66n53mL5P5ou6xf6cvj7kXr0jL5V1/view?usp=sharing"
+    # csv_url = "https://drive.google.com/file/d/1X4w66n53mL5P5ou6xf6cvj7kXr0jL5V1/view?usp=drive_link"
+    data = pd.read_csv(r"C:\Users\athar\OneDrive\Desktop\Python Machine Learning\Case Studies\Head Brain Case Study\MarvellousHeadBrain (1).csv")
+    print(data)
 
     print("The shape of the dataset", data.shape)
 
